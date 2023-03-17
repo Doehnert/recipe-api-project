@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "python.linting.enabled": false,
+  "python.linting.pylintEnabled": false,
+  "pylint.importStrategy": "fromEnvironment",
+  "python.testing.pytestArgs": [
+    "src"
+  ],
+  "python.testing.unittestEnabled": false,
+  "files.exclude": {
+    "**/*.pyc": {
+      "when": "$(basename).py"
+    },
+    "**/__pycache__": true,
+  },
+  "python.formatting.provider": "black"
+}
